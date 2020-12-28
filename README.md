@@ -4,22 +4,13 @@
 
 
 ### 穿梭框
-```
 请看 [预览地址](http://euzhi.com/blog/#/shuttle).
-```
-
 
 ### 手风琴
-```
 请看 [预览地址](http://euzhi.com/blog/#/accordion).
-```
-
 
 ### 多选标签
-```
 请看 [预览地址](http://euzhi.com/blog/#/menu).
-```
-
 
 ## 项目安装
 ```
