@@ -12,19 +12,20 @@
 ### 多选标签
 请看 [预览地址](http://euzhi.com/blog/#/menu).
 
+
 ## 项目安装
 ```
-请看 [预览地址](http://euzhi.com/blog/#/shuttle).
+yarn install
 ```
 
 ### 运行项目
 ```
-请看 [预览地址](http://euzhi.com/blog/#/accordion).
+yarn serve
 ```
 
 ### 项目打包
 ```
-请看 [预览地址](http://euzhi.com/blog/#/menu).
+yarn build
 ```
 
 ### 自定义配置
