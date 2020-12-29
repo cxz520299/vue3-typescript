@@ -31,6 +31,12 @@ import {
 } from 'vue'
 export default defineComponent({
     setup() {
+        //定义接口类型
+        interface ItemObj {
+            title: string;
+            content: string;
+            show: boolean;
+        }
         const data = reactive({
             items: [{
                     title: "JavaScript",
@@ -49,8 +55,7 @@ export default defineComponent({
                 }
             ],
             active: 0,
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            changeItem: (vo: any, inx: number) => {
+            changeItem: (vo: ItemObj, inx: number) => {
                 //如果重复点击一个栏目item 可以关闭和打开当前栏目手风琴内容
                 if (inx === data.active) {
                     vo.show = !vo.show
@@ -74,6 +79,7 @@ export default defineComponent({
     background: #ecf0f3;
     height: 600px;
     margin: 0 auto;
+
     .item {
         text-align: center;
         line-height: 80px;
@@ -95,6 +101,7 @@ export default defineComponent({
             opacity: 1;
         }
     }
+
     .content {
         opacity: 0;
         min-height: 80px;
