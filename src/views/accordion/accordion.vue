@@ -31,7 +31,7 @@ import {
 } from 'vue'
 export default defineComponent({
     setup() {
-        //定义接口类型
+        //定义接口类型.
         interface ItemObj {
             title: string;
             content: string;
