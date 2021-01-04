@@ -4,16 +4,16 @@
 
 
 ### 穿梭框
-请看 [预览地址](http://euzhi.com/blog/#/shuttle).
+请看 [预览地址](http://euzhi.com/demo/#/shuttle).
 
 ### 手风琴
-请看 [预览地址](http://euzhi.com/blog/#/accordion).
+请看 [预览地址](http://euzhi.com/demo/#/).
 
 ### 多选标签
-请看 [预览地址](http://euzhi.com/blog/#/menu).
+请看 [预览地址](http://euzhi.com/demo/#/menu).
 
 ### 轮播组件
-请看 [预览地址](http://euzhi.com/blog/#/carousel).
+请看 [预览地址](http://euzhi.com/demo/#/carousel).
 
 ## 项目安装
 ```
