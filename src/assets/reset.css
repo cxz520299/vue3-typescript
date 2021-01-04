@@ -2,6 +2,13 @@ html,
 body {
   margin: 0;
   font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+  background-color: #ecf0f3;
+  height: 100%;
+  max-width: 1400px;
+  padding: 0 20px;
+  position: relative;
+  margin: 0 auto;
+  scroll-behavior:smooth;
 }
 
 * {
@@ -12,14 +19,4 @@ ul,
 li {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: #ecf0f3;
-  height: 100%;
-  max-width: 1400px;
-  padding: 0 20px;
-  position: relative;
-  margin: 0 auto;
-  scroll-behavior:smooth;
 }

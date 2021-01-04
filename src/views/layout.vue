@@ -10,6 +10,11 @@
         </nav>
     </header>
     <router-view></router-view>
+    <div class="layout-about">
+        每周我都会更新一个vue3+typescript完成的组件
+        <a target="view_window" href="https://github.com/cxz520299/vue3-typescript">源码地址</a>&nbsp;&nbsp;
+        <a target="view_window" href="http://euzhi.com/blog/#/">博客</a>
+    </div>
 </div>
 </template>
 
@@ -32,6 +37,10 @@ export default defineComponent({
             }, {
                 name: "多选标签",
                 url: "menu"
+            },
+            {
+                name: "轮播组件",
+                url: "carousel"
             }]
         })
         return {
@@ -95,12 +104,10 @@ export default defineComponent({
                     0% 100%);
         }
     }
-
     .inner-shadow {
         border-radius: 0.4375rem;
         box-shadow: inset 0.375rem 0.375rem 0.625rem #d1d9e6, inset -0.375rem -0.375rem 0.625rem #fff;
     }
-
     .router-link-exact-active {
         color: #fff;
         width: 100px;
@@ -146,6 +153,15 @@ export default defineComponent({
         display: inline-block;
         width: 100px;
         height: 40px;
+    }
+    .layout-about{
+        position: fixed;
+        bottom: 18px;
+        left: 0;
+        right: 0;
+        font-size: 20px;
+        color: #666;
+        text-align: center;
     }
 }
 </style>

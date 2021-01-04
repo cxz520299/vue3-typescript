@@ -12,6 +12,8 @@
 ### 多选标签
 请看 [预览地址](http://euzhi.com/blog/#/menu).
 
+### 轮播组件
+请看 [预览地址](http://euzhi.com/blog/#/carousel).
 
 ## 项目安装
 ```
